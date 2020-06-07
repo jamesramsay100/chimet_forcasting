@@ -1,0 +1,7 @@
+SELECT * 
+FROM CROSSTAB
+(
+    	'SELECT record_datetime, var_value, variable
+    	 FROM wg_flat
+    	 ORDER BY 1,2'
+)AS ct (record_datetime timestamp, "1" smallint, "2" smallint);

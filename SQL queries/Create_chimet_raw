@@ -1,0 +1,16 @@
+CREATE TABLE chimet_raw(
+	ID Int Primary Key,
+	APD Numeric,
+	ATMP Numeric,
+	AWVHT Numeric,
+	BARO Numeric,
+	DATE Date,
+	DEPTH Numeric,
+	GST Numeric,
+	MWVHT Numeric,
+	TIME Time,
+	WD Int,
+	WSPD Numeric,
+	WTMP Numeric,
+	WVHT Numeric
+);

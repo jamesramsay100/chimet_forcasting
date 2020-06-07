@@ -1,0 +1,2 @@
+set timezone TO 'GMT';
+SELECT to_timestamp(EXTRACT(EPOCH FROM (Date || ' ' || Colname)::timestamp)) FROM wg_flat;
