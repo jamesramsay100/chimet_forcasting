@@ -1,1 +1,0 @@
-UPDATE wguru_flat SET record_datetime = to_timestamp(EXTRACT(EPOCH FROM (Date || ' ' || Colname)::timestamp));

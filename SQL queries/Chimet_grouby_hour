@@ -1,6 +1,0 @@
-select
-  date_trunc('hour', date_time) as date_time, -- or hour, day, week, month, year
-  avg(wspd) as wind_speed,
-  avg(wd) as wind_direction
-from chimet_raw
-group by date_trunc('hour', date_time);
